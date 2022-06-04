@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-top{
+  width: 100%;
+  height: 70px;
+  background-color: gray;
+  border:1px solid pink;
+   }
+.title{
+  display: flex; 
+  justify-content: center; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-bottom{
+  width: 100%;
+  height: 70px;
+  background-color: gray;
+  display: flex; 
+  justify-content: center;
+}
+.box{
+  /*横並びになって欲しい*/
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
